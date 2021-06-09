@@ -1,0 +1,4 @@
+# Schema for the configuration files of the kcci.
+kcci.settings:
+  type: bootstrap_barrio.settings
+  label: 'kcci settings'

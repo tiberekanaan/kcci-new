@@ -1,0 +1,179 @@
+/* Insert your kcci base overrides over Vartheme BS4 and Bootstrap */
+#slick-views-varbase-heroslider-media-varbase-heroslider-media-1 > div > div > div > div.hero-slide-content-wrapper > div > div > div > div.field.field--name-node-title > h2 {
+  color: #343a40;
+}
+
+#slick-views-varbase-heroslider-media-varbase-heroslider-media-1 > div > div > div > div.hero-slide-content-wrapper > div > div > div > div.field.field--name-field-brief.field--type-string-long.field--label-hidden.field__item {
+  color: #343a40;
+}
+
+#slick-views-varbase-heroslider-media-varbase-heroslider-media-1 > div > div > div > div.hero-slide-content-wrapper > div > div > div > div.field.field--name-field-link.field--type-link.field--label-hidden.field__item > a {
+  color: #343a40;
+}
+
+.bg-grad.h-100.w-100.d-table.p-5.all-text-white {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.avatar.mx-auto.mb-4.rounded-circle.img-fluid img {
+  max-width: 135px;
+  margin: auto;
+  border-radius: 50% !important;
+}
+
+div#testimonial-message {
+  padding-right: 3rem;
+  padding-bottom: 10px;
+  padding-left: 3rem;
+}
+
+@media screen and (min-width: 900px) {
+  .services.layout.row.no-gutters.layout-builder__layout {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  .fa-3x {
+    padding-bottom: 7px;
+    color: #9cdabb;
+  }
+  .feature-box.h-100.text-center.icon-grad {
+    padding-bottom: 40px;
+  }
+  .members.bg-secondary {
+    background-color: #f7f8f9 !important;
+  }
+  .news._none.vlb-section {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+  }
+  .call._none.vlb-section {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+.faq-footer {
+  margin: 8px;
+  padding: 24px;
+  color: white;
+  border-radius: 10px;
+  background-color: #343a40;
+}
+
+.view-footer {
+  padding-top: 4rem;
+}
+
+.faq-header {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+#accordion:before {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 24px;
+  width: 1px;
+  height: 80%;
+  content: "";
+  background: #550527;
+}
+
+#accordion .panel {
+  position: relative;
+  margin: 0 0 12px 50px;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#accordion .panel:before {
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 2px;
+  height: 100%;
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, from(#688e26), to(#ff816a));
+  background: -webkit-linear-gradient(top, #688e26 0%, #ff816a 100%);
+  background: -o-linear-gradient(top, #688e26 0%, #ff816a 100%);
+  background: linear-gradient(to bottom, #688e26 0%, #ff816a 100%);
+}
+
+#accordion .panel-heading {
+  position: relative;
+  padding: 0;
+  background: #fff;
+}
+
+#accordion .panel-heading:before {
+  position: absolute;
+  top: 50%;
+  left: -48px;
+  width: 15px;
+  height: 15px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid #550527;
+  border-radius: 50px;
+  background: #fff;
+}
+
+#accordion .panel-title a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 15px 55px 15px 30px;
+  color: #550527;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+  content: "\f068";
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: #688e26;
+  border: 1px solid #688e26;
+  border-radius: 50%;
+  font-family: "Font Awesome 5 Free";
+  font-size: 15px;
+  font-weight: 900;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+#accordion .panel-title a.collapsed:before {
+  content: "\f067";
+}
+
+#accordion .panel-body {
+  padding: 0 30px 15px;
+  color: #305275;
+  border: none;
+  font-size: 14px;
+  line-height: 28px;
+}
